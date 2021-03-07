@@ -1,0 +1,45 @@
+body {
+  background-color: #a0b3c7;
+}
+.container {
+  margin-top: 80px;
+  padding-left: 20px;
+}
+h1 {
+  font-family: "Fascinate", cursive;
+  width: 100px;
+  line-height: 40px;
+  font-size: 50px;
+  color: #f1e7dc;
+  text-align: center;
+  -webkit-text-stroke: 2px #5f1f4e;
+}
+button,
+.score {
+  border-radius: 5px;
+  font-family: "DotGothic16", sans-serif;
+  color: #5f1f4e;
+  padding: 5px;
+}
+.grid {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: #5f1f4e;
+  background-color: #f1e7dc;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: #f50368;
+}
+
+.apple {
+  background-color: #70f5c5;
+}
